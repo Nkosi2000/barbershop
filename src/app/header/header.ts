@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3">
       <div class="container-fluid g-0">
         <!-- Left Section (Brand) -->
-        <a class="navbar-brand flex-grow-1 flex-lg-grow-0 text-truncate" routerLink="/">COOL STUFF</a>
+        <a class="navbar-brand flex-grow-1 flex-lg-grow-0 text-truncate" routerLink="/">Mhlëngïë Dë Barber</a>
         
         <!-- Center Section (Hamburger on mobile, Nav links on desktop) -->
         <div class="d-flex flex-grow-1 justify-content-center">
@@ -20,7 +20,6 @@ import { Component } from '@angular/core';
             <li class="nav-item"><a class="nav-link" routerLink="/staff">STAFF</a></li>
             <li class="nav-item"><a class="nav-link" routerLink="/testimonials">TESTIMONIALS</a></li>
             <li class="nav-item"><a class="nav-link" routerLink="/contact">CONTACT US</a></li>
-            <li class="nav-item"><a class="nav-link">EXTRAS</a></li>
           </ul>
           
           <!-- Mobile Toggle (Centered) -->
@@ -46,13 +45,15 @@ import { Component } from '@angular/core';
             <li class="nav-item"><a class="nav-link" routerLink="/staff">STAFF</a></li>
             <li class="nav-item"><a class="nav-link" routerLink="/testimonials">TESTIMONIALS</a></li>
             <li class="nav-item"><a class="nav-link" routerLink="/contact">CONTACT US</a></li>
-            <li class="nav-item"><a class="nav-link">EXTRAS</a></li>
           </ul>
         </div>
       </div>
     </nav>
   `,
   styles: [`
+    .navbar.bg-dark {
+      background-color: #141414ff !important;
+    }
     /* Base styles */
     .navbar {
       padding-top: 0.5rem;
