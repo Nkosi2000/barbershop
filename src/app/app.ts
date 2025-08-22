@@ -29,7 +29,7 @@ import { Footer } from './footer/footer';
     <app-header></app-header>
     <app-hero></app-hero>
     <app-about></app-about>
-    <app-gallery></app-gallery>
+    <app-gallery></app-gallery> 
     <app-services></app-services>
     <app-staff></app-staff>
     <app-testimonials></app-testimonials>
