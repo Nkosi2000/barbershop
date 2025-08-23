@@ -37,15 +37,17 @@ import { Component } from '@angular/core';
 
         <!-- Mobile Collapsible Content -->
         <div class="collapse navbar-collapse d-lg-none mt-2" id="mobileNavContent">
-          <ul class="navbar-nav text-center">
-            <li class="nav-item"><a class="nav-link" href="#home">HOME</a></li>
-            <li class="nav-item"><a class="nav-link" href="#about">ABOUT</a></li>
-            <li class="nav-item"><a class="nav-link" href="#gallery">GALLERY</a></li>
-            <li class="nav-item"><a class="nav-link" href="#services">SERVICES</a></li>
-            <li class="nav-item"><a class="nav-link" href="#staff">STAFF</a></li>
-            <li class="nav-item"><a class="nav-link" href="#testimonials">TESTIMONIALS</a></li>
-            <li class="nav-item"><a class="nav-link" href="#contact">CONTACT US</a></li>
-          </ul>
+          <div class="mobile-nav-container">
+            <ul class="navbar-nav text-center">
+              <li class="nav-item"><a class="nav-link" href="#home">HOME</a></li>
+              <li class="nav-item"><a class="nav-link" href="#about">ABOUT</a></li>
+              <li class="nav-item"><a class="nav-link" href="#gallery">GALLERY</a></li>
+              <li class="nav-item"><a class="nav-link" href="#services">SERVICES</a></li>
+              <li class="nav-item"><a class="nav-link" href="#staff">STAFF</a></li>
+              <li class="nav-item"><a class="nav-link" href="#testimonials">TESTIMONIALS</a></li>
+              <li class="nav-item"><a class="nav-link" href="#contact">CONTACT US</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </nav>
@@ -89,9 +91,7 @@ import { Component } from '@angular/core';
       letter-spacing: 0.20em;
       max-width: 150px;
       white-space: nowrap;
-    }
-    
-    .navbar-nav .nav-item {
+    }    .navbar-nav .nav-item {
       margin: 0 0.5rem;
       font-family: 'Bebas Neue', sans-serif;
     }
@@ -209,6 +209,32 @@ import { Component } from '@angular/core';
         padding-top: 70px;
         background-color: #141414ff !important;
       }
+
+      /* Mobile nav container for scrollable menu */
+      .mobile-nav-container {
+        max-height: 60vh; /* Limit height to 60% of viewport */
+        overflow-y: auto; /* Enable vertical scrolling */
+        -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+      }
+
+      /* Custom scrollbar for mobile menu */
+      .mobile-nav-container::-webkit-scrollbar {
+        width: 6px;
+      }
+
+      .mobile-nav-container::-webkit-scrollbar-track {
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 10px;
+      }
+
+      .mobile-nav-container::-webkit-scrollbar-thumb {
+        background: #e8c100ff;
+        border-radius: 10px;
+      }
+
+      .mobile-nav-container::-webkit-scrollbar-thumb:hover {
+        background: #c9a600;
+      }
     }
     
     /* Desktop styles */
@@ -225,6 +251,30 @@ import { Component } from '@angular/core';
         display: flex !important;
       }
     }
+
+    /* Landscape mode specific styles for mobile */
+    @media (max-width: 991.98px) and (orientation: landscape) {
+      .mobile-nav-container {
+        max-height: 50vh; /* Slightly smaller height for landscape */
+      }
+      
+      .navbar-nav .nav-item {
+        margin: 0.3rem 0; /* Reduce spacing in landscape */
+      }
+      
+      .navbar-nav .nav-link {
+        padding: 0.4rem 1rem; /* Adjust padding for landscape */
+        font-size: 1.1rem; /* Slightly smaller font if needed */
+      }
+    }
+
+    /* Extra small devices in landscape */
+    @media (max-height: 400px) and (orientation: landscape) {
+      .mobile-nav-container {
+        max-height: 45vh; /* Even smaller height for very short screens */
+      }
+    }
+    
   `]
 })
 export class Header {}
