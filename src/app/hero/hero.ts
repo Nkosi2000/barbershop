@@ -99,7 +99,7 @@ import { Component } from '@angular/core';
       margin-bottom: 5px;
       letter-spacing: 8px;
       line-height: 1.1;
-      color: white;
+      color: #f9f6f2;
       text-transform: uppercase;
     }
     
@@ -120,7 +120,7 @@ import { Component } from '@angular/core';
 
     .line {
       height: 2px;
-      background-color: white;
+      background-color: #f9f6f2;
       flex: 1;
       max-width: 160px;
     }
@@ -157,7 +157,7 @@ import { Component } from '@angular/core';
       font-size: clamp(0.875rem, 2vw, 1.125rem);
       margin-bottom: 10px;
       letter-spacing: 4px;
-      color: white;
+      color: #f9f6f2;
       font-family: 'Montserrat', sans-serif;
       font-weight: 300;
       text-transform: uppercase;
@@ -171,23 +171,24 @@ import { Component } from '@angular/core';
     
     .hero-button {
       background-color: transparent;
-      color: white;
-      border: 1px solid white;
-      padding: 15px 30px;
-      font-size: 12px;
-      letter-spacing: 3px;
+      color: #f9f6f2;
+      border: 2px solid #e8c100ff;
+      padding: 0.5rem 1.5rem;
+      font-size: 1rem;
+      letter-spacing: 2px;
       text-transform: uppercase;
       cursor: pointer;
       transition: all 0.3s;
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Bebas Neue', sans-serif;
       font-weight: 400;
       position: relative;
       z-index: 3; /* Ensure button stays above watermark */
     }
     
     .hero-button:hover {
-      background-color: white;
-      color: #333;
+      background-color: #e8c100ff;
+      color: #000;
+      border-color: #f9f6f2 !important;
     }
     
     /* Landscape orientation fix */

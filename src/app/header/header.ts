@@ -91,16 +91,18 @@ import { Component } from '@angular/core';
       letter-spacing: 0.20em;
       max-width: 150px;
       white-space: nowrap;
-    }    .navbar-nav .nav-item {
+    }    
+    
+    .navbar-nav .nav-item {
       margin: 0 0.5rem;
       font-family: 'Bebas Neue', sans-serif;
     }
     
     .navbar-nav .nav-link {
       position: relative;
-      color: #fff;
+      color: #f9f6f2;
       transition: color 0.2s;
-      font-size: 1.2rem;
+      font-size: 1rem;
       padding: 0.5rem 1rem;
       letter-spacing: 3px;
     }
@@ -120,7 +122,7 @@ import { Component } from '@angular/core';
     .navbar-nav .nav-link:hover,
     .navbar-nav .nav-link:focus,
     .navbar-nav .nav-link.active {
-      color: #fff !important;
+      color: #f9f6f2 !important;
     }
     
     .navbar-nav .nav-link:hover::after,
@@ -131,18 +133,20 @@ import { Component } from '@angular/core';
     
     .btn.btn-outline-light {
       font-family: 'Bebas Neue', sans-serif;
-      transition: background 0.2s, color 0.2s;
-      font-size: 1.1rem;
+      transition: background all 0.3s ease;
+      font-size: 1rem;
       padding: 0.5rem 1.5rem;
-      border-width: 2px;
-      border-color: #e8c100ff;
+      border: 2px solid #e8c100ff;
+      border-radius: 0px !important;
+      letter-spacing: 1px;
+      cursor: pointer;
     }
     
     .btn.btn-outline-light:hover,
     .btn.btn-outline-light:focus {
       background: #e8c100ff;
       color: #000 !important;
-      border-color: #fcfcfcff;
+      border-color: #f9f6f2;
     }
     
     /* Desktop Navigation Links - Pushed Right */
