@@ -23,7 +23,7 @@ import { Component } from '@angular/core';
           </div>
 
           <p class="hero-subtitle">A CUT ABOVE THE REST</p>
-          <p class="hours">MON - SUN : 7:00AM - 8:00PM</p>
+          <p class="hours">MON - SUN : 07:00AM - 16:30PM</p>
           <button class="hero-button">OUR SERVICES</button>
         </div>
       </div>

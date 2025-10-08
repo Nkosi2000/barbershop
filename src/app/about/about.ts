@@ -54,7 +54,7 @@ import { Component } from '@angular/core';
     .divider {
       width: 60px;
       height: 2px;
-      background-color: #d4af37;
+      background-color: #e8c100ff;
       margin: 0 auto 30px;
     }
     

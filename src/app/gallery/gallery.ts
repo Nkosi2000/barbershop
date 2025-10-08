@@ -54,7 +54,7 @@ import { Component } from '@angular/core';
     .gallery-container {
       background-color: #0a0a0a;
       padding: clamp(2rem, 5vw, 4.5rem) clamp(1rem, 4vw, 3rem);
-      font-family: 'Inter', 'Helvetica Neue', sans-serif;
+      font-family: 'Georgia', serif;
       position: relative;
       overflow: hidden;
       display: flex;
