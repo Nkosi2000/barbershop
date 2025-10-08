@@ -78,7 +78,7 @@ import { Component } from '@angular/core';
               <img src="bento/nailcareicon.png" alt="Haircut Icon" class="icon-img" />
             </div>
             <h3 class="card-title">Nail Care</h3>
-            <p class="card-description">Luxurious manicure and pedicure services.</p>
+            <p class="card-description">Luxurious manicure and pedicure services. Nail cleaing & repolishing.</p>
             <ul class="service-features">
               <li>Gel manicures</li>
               <li>Spa pedicures</li>
