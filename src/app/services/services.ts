@@ -17,12 +17,13 @@ import { Component } from '@angular/core';
             <div class="card-icon">
               <i class="fas fa-cut"></i>
             </div>
-            <h3 class="card-title">Makeup Artistry</h3>
-            <p class="card-description">Professional makeup application for weddings, events, or a special night out.</p>
+            <h3 class="card-title">Styling</h3>
+            <p class="card-description">Keep your look maintaned, organized and linky smooth, for a longer lasting impression.</p>
             <ul class="service-features">
-              <li>Bridal makeup</li>
-              <li>Evening glam</li>
-              <li>Natural day look</li>
+              <li>Qaulity treatments</li>
+              <li>Hair relaxer</li>
+              <li>Hair restoration</li>
+              <li>Blowout</li>
             </ul>
             <div class="card-footer">
               <button class="service-btn">Book Now</button>
@@ -149,7 +150,7 @@ import { Component } from '@angular/core';
     }
 
     .service-card {
-      background: linear-gradient(150deg, #e8c100ff 24%, #fff 5%);
+      background: linear-gradient(155deg, #e8c100ff 26%, #fff 5%, #fff 81%, #000 0% );
       border-radius: 0px;
       padding: 2rem;
       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
@@ -289,7 +290,7 @@ import { Component } from '@angular/core';
 
     .price {
       font-weight: 600;
-      color: #000;
+      color: #e8c100ff;
       font-size: 1.1rem;
     }
 
