@@ -15,7 +15,8 @@ import { Component } from '@angular/core';
           <!-- Service 1 -->
           <div class="service-card">
             <div class="card-icon">
-              <i class="fas fa-cut"></i>
+              <!-- <i class="fas fa-cut"></i> -->
+              <img src="bento/hairtreatmenticon.png" alt="Dry Icon" class="icon-img" />
             </div>
             <h3 class="card-title">Styling</h3>
             <p class="card-description">Keep your look maintaned, organized and linky smooth, for a longer lasting impression.</p>
@@ -35,7 +36,8 @@ import { Component } from '@angular/core';
           <div class="service-card featured">
             <div class="card-badge">Most Popular</div>
             <div class="card-icon">
-              <i class="fas fa-palette"></i>
+              <!-- <i class="fas fa-palette"></i> -->
+              <img src="bento/haircuticon.png" alt="Haircut Icon" class="icon-img" />
             </div>
             <h3 class="card-title">Hair Styling</h3>
             <p class="card-description">Transform your look with our expert hairstylists who create the perfect style for any occasion.</p>
@@ -53,9 +55,10 @@ import { Component } from '@angular/core';
           <!-- Service 3 -->
           <div class="service-card">
             <div class="card-icon">
-              <i class="fas fa-spa"></i>
+              <!-- <i class="fas fa-spa"></i> -->
+              <img src="bento/skincareicon.png" alt="Haircut Icon" class="icon-img" />
             </div>
-            <h3 class="card-title">Skincare Treatments</h3>
+            <h3 class="card-title">Skincare</h3>
             <p class="card-description">Rejuvenate your skin with our premium facials and skincare treatments.</p>
             <ul class="service-features">
               <li>Hydrating facials</li>
@@ -71,7 +74,8 @@ import { Component } from '@angular/core';
           <!-- Service 4 -->
           <div class="service-card">
             <div class="card-icon">
-              <i class="fas fa-hand-sparkles"></i>
+              <!-- <i class="fas fa-hand-sparkles"></i> -->
+              <img src="bento/nailcareicon.png" alt="Haircut Icon" class="icon-img" />
             </div>
             <h3 class="card-title">Nail Care</h3>
             <p class="card-description">Luxurious manicure and pedicure services.</p>
@@ -85,7 +89,28 @@ import { Component } from '@angular/core';
               <span class="price">From R45</span>
             </div>
           </div>
+
+          <!-- Service 5 -->
+          <div class="service-card">
+            <div class="card-icon">
+              <!-- <i class="fas fa-hand-sparkles"></i> -->
+              <img src="bento/piercingicon.png" alt="Haircut Icon" class="icon-img" />
+            </div>
+            <h3 class="card-title">Piercings</h3>
+            <p class="card-description">Custom piercings for that spark of satisfaction.</p>
+            <ul class="service-features">
+              <li>Nose piercings</li>
+              <li>Belly button piercings</li>
+              <li>Lip piercings</li>
+              <li>Much more...</li>
+            </ul>
+            <div class="card-footer">
+              <button class="service-btn">Book Now</button>
+              <span class="price">From R55</span>
+            </div>
+          </div>
         </div>
+        
 
         <div class="section-footer">
           <p class="cta-text">Ready to transform your look?</p>
@@ -193,16 +218,22 @@ import { Component } from '@angular/core';
       font-weight: 400;
     }
 
+    .icon-img {
+      width: 50%;
+      height: 50%;
+      object-fit: contain;
+    }
+
     .card-icon {
       width: 70px;
       height: 70px;
-      background: linear-gradient(135deg, #f8f6f4 0%, #f0ebe5 100%);
+      //background: linear-gradient(135deg, #f8f6f4 0%, #f0ebe5 100%);
       border-radius: 0%;
       display: flex;
       align-items: center;
       justify-content: center;
       margin-bottom: 1.5rem;
-      color: #a67c52;
+      //color: #a67c52;
       font-size: 1.8rem;
     }
 
