@@ -7,7 +7,7 @@ import { Staff } from './staff/staff';
 import { Testimonials } from './testimonials/testimonials';
 import { Contact } from './contact/contact';
 import { Gallery } from './gallery/gallery';
-import { Bookonline } from './bookonline/bookonline';
+// import { Bookonline } from './bookonline/bookonline';
 import { Footer } from './footer/footer';
 
 @Component({
@@ -22,7 +22,7 @@ import { Footer } from './footer/footer';
     Testimonials,
     Contact,
     Gallery, 
-    Bookonline, 
+    // Bookonline, 
     Footer
   ],
   template: `
@@ -34,7 +34,7 @@ import { Footer } from './footer/footer';
     <app-staff></app-staff>
     <app-testimonials></app-testimonials>
     <app-contact></app-contact>
-    <app-bookonline></app-bookonline>
+    <!-- <app-bookonline></app-bookonline> -->
     <app-footer></app-footer>
   `,
   styles: []
