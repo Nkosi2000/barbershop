@@ -153,8 +153,8 @@ import { Component } from '@angular/core';
       bottom: -10px;
       left: 50%;
       transform: translateX(-50%);
-      width: 80px;
-      height: 3px;
+      width: 60px;
+      height: 0.2rem;
       background: linear-gradient(90deg, #e8c100ff);
     }
 

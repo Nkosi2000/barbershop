@@ -82,7 +82,7 @@ import { Component } from '@angular/core';
     
     .title-divider {
       width: 60px;
-      height: 2px;
+      height: 0.2rem;
       background-color: #d4af37;
       margin: 0 auto 30px;
     }
