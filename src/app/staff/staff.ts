@@ -112,7 +112,7 @@ import { Component } from '@angular/core';
     }
     
     .staff-member {
-      background: white;
+      background-color: #f9f6f2;
       padding: 30px 20px;
       border-radius: 0px;
       //box-shadow: 0 5px 15px rgba(0,0,0,0.1);
