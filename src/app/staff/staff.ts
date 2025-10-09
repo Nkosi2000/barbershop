@@ -95,8 +95,8 @@ import { Component } from '@angular/core';
     .staff-intro {
       font-size: 1.1rem;
       line-height: 1.8;
-      //color: #e8c100ff;
-      color: #f9f6f2;
+      color: #e8c100ff;
+      //color: #f9f6f2;
       font-family: 'Georgia', serif;
       margin-bottom: 50px;
       max-width: 800px;
