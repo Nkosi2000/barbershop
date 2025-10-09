@@ -112,10 +112,10 @@ import { Component } from '@angular/core';
         </div>
         
 
-        <div class="section-footer">
+        <!-- <div class="section-footer">
           <p class="cta-text">Ready to transform your look?</p>
           <button class="cta-button">View All Services</button>
-        </div>
+        </div> -->
       </div>
     </section>
   `,
